@@ -1,4 +1,5 @@
 import React from "react";
+import Button from '@mui/material/Button'
 import "./HOME.css";
 
 function HOME(props) {
@@ -11,7 +12,7 @@ function HOME(props) {
           <div className="overlap-group3">
             <div className="greenscreen"></div>
             <div className="overlap-group">
-              <div className="shop-now valign-text-bottom">{shopNow}</div>
+              <Button variant="contained" color="primary" className="shop-now valign-text-bottom">{shopNow}</Button>
             </div>
             <p className="text2 valign-text-middle">{text2}</p>
             <h1 className="text1 valign-text-middle">{text1}</h1>
@@ -19,18 +20,18 @@ function HOME(props) {
             <img className="vector-3" src="/img/vector-3.svg" alt="Vector 3" />
             <img className="productimage" src="/img/productimage.svg" alt="PRODUCTIMAGE" />
             <div className="buttons tenorsans-normal-east-bay-20px">
-              <div className="reviews">{reviews}</div>
-              <div className="surname">{surname}</div>
-              <div className="contac-us">{contacUs}</div>
+              <Button variant="outlined" color="primary" className="reviews">{reviews}</Button>
+              <Button variant="outlined" color="primary" className="surname">{surname}</Button>
+              <Button variant="outlined" color="primary" className="contac-us">{contacUs}</Button>
             </div>
             <div className="bioface">{bioface}</div>
           </div>
           <div className="singuplogin">
             <div className="overlap-group2">
-              <div className="sing-up tenorsans-normal-east-bay-20px">{singUp}</div>
+              <Button variant="contained" color="primary" className="sing-up tenorsans-normal-east-bay-20px">{singUp}</Button>
             </div>
             <div className="overlap-group1">
-              <div className="log-in">{logIn}</div>
+              <Button variant="contained" color="primary" className="log-in">{logIn}</Button>
             </div>
           </div>
         </div>
