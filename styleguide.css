@@ -1,0 +1,22 @@
+:root { 
+  --black: #000000;
+  --green: #146356;
+  --letters: #4f4a7d;
+  --white: #ffffff;
+ 
+  --font-size-l: 65px;
+  --font-size-m: 50px;
+  --font-size-s: 36px;
+  --font-size-xl: 90px;
+  --font-size-xs: 20px;
+ 
+  --font-family-tajawal: "Tajawal", Helvetica;
+  --font-family-tenor_sans: "Tenor Sans", Helvetica;
+}
+.tenorsans-normal-east-bay-20px {
+  color: var(--letters);
+  font-family: var(--font-family-tenor_sans);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
