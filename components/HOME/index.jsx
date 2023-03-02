@@ -12,7 +12,7 @@ function HOME(props) {
           <div className="overlap-group3">
             <div className="greenscreen"></div>
             <div className="overlap-group">
-              <Button variant="contained" color="primary" className="shop-now valign-text-bottom">{shopNow}</Button>
+              <div className="shop-now valign-text-bottom">{shopNow}</div>
             </div>
             <p className="text2 valign-text-middle">{text2}</p>
             <h1 className="text1 valign-text-middle">{text1}</h1>
@@ -20,18 +20,18 @@ function HOME(props) {
             <img className="vector-3" src="/img/vector-3.svg" alt="Vector 3" />
             <img className="productimage" src="/img/productimage.svg" alt="PRODUCTIMAGE" />
             <div className="buttons tenorsans-normal-east-bay-20px">
-              <Button variant="outlined" color="primary" className="reviews">{reviews}</Button>
-              <Button variant="outlined" color="primary" className="surname">{surname}</Button>
-              <Button variant="outlined" color="primary" className="contac-us">{contacUs}</Button>
+              <Button className="reviews">{reviews}</Button>
+              <Button className="surname">{surname}</Button>
+              <Button className="contac-us">{contacUs}</Button>
             </div>
             <div className="bioface">{bioface}</div>
           </div>
           <div className="singuplogin">
             <div className="overlap-group2">
-              <Button variant="contained" color="primary" className="sing-up tenorsans-normal-east-bay-20px">{singUp}</Button>
+              <Button className="sing-up tenorsans-normal-east-bay-20px">{singUp}</Button>
             </div>
             <div className="overlap-group1">
-              <Button variant="contained" color="primary" className="log-in">{logIn}</Button>
+              <Button className="log-in">{logIn}</Button>
             </div>
           </div>
         </div>
